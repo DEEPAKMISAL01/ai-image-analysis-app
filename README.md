@@ -33,28 +33,26 @@ This system enables users to upload an image via a simple web interface. The ima
 
 ## 📁 Project Structure
 
-
 ai-image-anlysis-app/
 ├── terraform/
-│   ├── main.tf
-│   ├── variables.tf
-│   └── outputs.tf
+│ ├── main.tf
+│ ├── variables.tf
+│ └── outputs.tf
 ├── lambda/
-│   └── image_analyzer.py
+│ └── image_analyzer.py
 ├── frontend/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
+│ ├── index.html
+│ ├── style.css
+│ └── script.js
 ├── assets/
-│   ├── Homepage.png.png
-│   └── output.png.png
+│ ├── homepage.png
+│ └── output.png
 └── README.md
-
 
 
 ---
 
-## 🧠 Step 2 - Backend Development (Lambda)
+## 🧠 Step 2 – Backend Development (Lambda)
 
 Create `lambda/image_analyzer.py` to:
 
@@ -68,7 +66,7 @@ Create `lambda/image_analyzer.py` to:
 
 ---
 
-## 🏗️ Step 3 - Infrastructure as Code (Terraform)
+## 🏗️ Step 3 – Infrastructure as Code (Terraform)
 
 - `variables.tf`: Define reusable variables (region, bucket name, etc.)
 - `main.tf`: Define S3 bucket, Lambda, API Gateway, IAM roles, and permissions.
@@ -83,7 +81,7 @@ terraform apply
 
 Copy the api_gateway_invoke_url from the output for frontend use.
 
-💻 Step 4 - Frontend Development
+💻 Step 4 – Frontend Development
 index.html: Main image upload and display interface.
 
 style.css: Styling for UI.
@@ -91,40 +89,36 @@ style.css: Styling for UI.
 script.js: Handles image preview, base64 conversion, and API call.
 
 🔧 In script.js, replace YOUR_API_GATEWAY_INVOKE_URL with the actual URL and add /analyze.
-## Screenshots
 
-![Homepage](assets/homepage.png)
-![Output Page](assets/output.png)
+Homepage
 
 
-☁️ Step 5 - Deployment and Testing
+Output Page
 
+
+☁️ Step 5 – Deployment and Testing
 1. Backend Deployment
-
 cd terraform
-
 terraform apply
 
 2. Frontend Deployment
 Upload index.html, style.css, and script.js to the S3 bucket.
 
-Bucket name starts with ai-image-analyzer-frontend-hosting.
+Bucket name should be similar to ai-image-analyzer-frontend-hosting.
 
-Ensure public read access for all files.
+Ensure public read access is enabled for all files.
 
 3. Testing
-Open index.html in the S3 bucket using the Object URL.
+Open the index.html from the S3 bucket using its Object URL.
 
 Upload an image.
 
-Click Analyze Image.
+Click "Analyze Image".
 
-See the AI-generated description and label results.
+See the AI-generated description and Rekognition label results.
 
 🧹 Cleanup
-
 To remove all AWS resources and stop billing:
-
 cd terraform
 terraform destroy
 
@@ -133,12 +127,11 @@ A fully serverless, AI-powered image analyzer that combines computer vision and 
 
 📂 Optional Enhancements
 Add Amazon Cognito for authentication.
-
 Store image data and analysis history in DynamoDB.
-
 Distribute frontend globally using CloudFront.
-
 Add monitoring and alerts with CloudWatch.
 
 📄 License
 This project is licensed under the MIT License.
+
+
