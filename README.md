@@ -91,7 +91,7 @@ script.js: Handles image preview, base64 conversion, and API call.
 🔧 In script.js, replace YOUR_API_GATEWAY_INVOKE_URL with the actual URL and add /analyze.
 
 Homepage
-
+"C:\Users\DELL\Desktop\ai-image-anlysis-app\assets\Homepage.png.png"
 
 Output Page
 
@@ -133,5 +133,15 @@ Add monitoring and alerts with CloudWatch.
 
 📄 License
 This project is licensed under the MIT License.
+
+
+
+Let me know if you also want me to:
+
+Add live demo badges
+Create a deploy.sh script
+Write your image_analyzer.py or main.tf file
+
+Just say the word!
 
 
