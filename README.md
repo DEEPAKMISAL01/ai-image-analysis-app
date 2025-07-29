@@ -90,11 +90,13 @@ script.js: Handles image preview, base64 conversion, and API call.
 
 🔧 In script.js, replace YOUR_API_GATEWAY_INVOKE_URL with the actual URL and add /analyze.
 
-Homepage
-"C:\Users\DELL\Desktop\ai-image-anlysis-app\assets\Homepage.png.png"
+### 📸 Homepage UI
 
-Output Page
+![Homepage](./assets/Homepage.png)
 
+### 📊 Output Page
+
+![Output](./assets/OutputPage.png)
 
 ☁️ Step 5 – Deployment and Testing
 1. Backend Deployment
