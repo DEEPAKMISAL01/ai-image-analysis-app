@@ -89,17 +89,14 @@ style.css: Styling for UI.
 script.js: Handles image preview, base64 conversion, and API call.
 
 🔧 In script.js, replace YOUR_API_GATEWAY_INVOKE_URL with the actual URL and add /analyze.
+## Screenshots
 
-## 📸 Screenshots
+### Homepage
+![Homepage](assets/Homepage.png.png)
 
-## 📸 Screenshots
-![App Screenshot](assets/screenshot.png)
-
-### 🔍 Home Page
-![Homepage](assets/homepage.png)
-
-### 🖼️ Output Page
+### Output Page
 ![Output Page](assets/outputpage.png)
+
 
 ☁️ Step 5 - Deployment and Testing
 
