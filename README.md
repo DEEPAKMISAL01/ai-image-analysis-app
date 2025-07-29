@@ -142,18 +142,3 @@ Add monitoring and alerts with CloudWatch.
 
 📄 License
 This project is licensed under the MIT License.
-
-
----
-
-### ✅ Instructions:
-1. Copy the above content.
-2. Paste it into a file named `README.md` inside:
-
-
-C:\Users\DELL\Desktop\ai-image-anlysis-app
-3. Make sure both these files exist in:
-
-C:\Users\DELL\Desktop\ai-image-anlysis-app\assets
-├── Homepage.png.png
-└── output.png.png
