@@ -93,6 +93,7 @@ script.js: Handles image preview, base64 conversion, and API call.
 ## 📸 Screenshots
 
 ## 📸 Screenshots
+![App Screenshot](assets/screenshot.png)
 
 ### 🔍 Home Page
 ![Homepage](assets/homepage.png)
