@@ -33,21 +33,23 @@ This system enables users to upload an image via a simple web interface. The ima
 
 ## 📁 Project Structure
 
+
 ai-image-anlysis-app/
 ├── terraform/
-│ ├── main.tf
-│ ├── variables.tf
-│ └── outputs.tf
+│   ├── main.tf
+│   ├── variables.tf
+│   └── outputs.tf
 ├── lambda/
-│ └── image_analyzer.py
+│   └── image_analyzer.py
 ├── frontend/
-│ ├── index.html
-│ ├── style.css
-│ └── script.js
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
 ├── assets/
-│ ├── Homepage.png.png
-│ └── output.png.png
+│   ├── Homepage.png.png
+│   └── output.png.png
 └── README.md
+
 
 
 ---
